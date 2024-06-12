@@ -1,0 +1,37 @@
+name: al_madina_traders
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  sizer: ^2.0.15
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.2
+  intl: ^0.19.0
+  firebase_core: ^2.31.0
+  cloud_firestore: ^4.17.3
+  pie_chart: ^5.4.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
